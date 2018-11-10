@@ -1,8 +1,8 @@
 name: Jekyll Themes
 url: https://eenimeeniminimo.github.io
+baseurl : ""
 description: Insert tagline here
 remote_theme : mattvh/jekyllthemes
-baseurl   : "" 
 
 permalink: /themes/:title/
 
@@ -13,6 +13,6 @@ paginate: 20
 
 markdown: rdiscount
 rdiscount:
-extensions: ['smart']
+    extensions: ['smart']
 
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile', 'vendor']
